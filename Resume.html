@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+</head>
+<body>
+
+    <ul><li><a href="page1.html#elem1">Page1</a></li></ul>
+
+    <h3 id="Resume">Create your personal resume</h3>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+      <fieldset>
+
+            <p><label for="name">Name</label>
+                <input id="name" type="text" required></p>
+                
+            <p><label for="surname">Surname</label>
+                <input id="surname" type="text" required></p>
+
+            <p><label for="midle_name">Midle name*</label>
+               <input type="text" id="midle_name" placeholder="Optional"></p>    
+
+            <p><label for="tel">Телефон:</label>
+                <input id="tel" type="tel" required></p>
+                
+            <p><label for="email">E-mail</label>
+                <input id="email" type="email" required></p>
+
+            <p><label for="birthday">Birthday</label>
+                <input type="date" id="birthday"></p>
+
+            <p>
+                    Gender:
+                    <label><input name="skils" type="radio">Male</label>
+                    <label><input name="skils" type="radio">Female</label>
+            </p>
+                
+            <p>
+                <label for="nat">Natioanality</label>
+                   <select id="nat" name="select">
+                      <option>Rus</option>
+                      <option>Ger</option>
+                      <option>Chinese</option>
+                      <option>Spanish</option>
+                   </select>
+            </p>
+
+            <p>
+                Your hobby:
+                <label><input name="answer[]" type="checkbox">Sport</label>
+                <label><input name="answer[]" type="checkbox">Travel</label>
+                <label><input name="answer[]" type="checkbox">Video games</label>
+                <label><input name="answer[]" type="checkbox">Codding</label>
+            </p>
+
+            <p>
+                <label for="about_yourself">Tell about about_yourself:</label></p>
+                <textarea id="about_yourself" rows="5" cols="35"></textarea>
+            <p>
+
+            <p>
+                <input type="button" value="Save and Send">
+                <input type="reset" value="Clear page">
+            </p>
+
+        </fieldset>
+    </form>
+    
+</body>
