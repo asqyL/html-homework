@@ -1,0 +1,8 @@
+.news-button{
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  
+  border-radius: 3px;
+  background: rgb(64,199,129);
+}
